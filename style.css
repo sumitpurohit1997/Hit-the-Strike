@@ -1,0 +1,24 @@
+
+#scoreLabel{
+    position:absolute; 
+    bottom:0;
+}
+
+body {
+    font-family: 'ZCOOL QingKe HuangYou';font-size: 22px;
+    background-color: black;
+    color: green;
+}
+
+#title{
+    font-size: 50px;
+    text-align: center;
+	animation:blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+	0%{		color: green;	}
+	49%{	color: transparent;	}
+	50%{	color: transparent;	}
+	99%{	color:transparent;	}
+	100%{	color: green;	}
+}
